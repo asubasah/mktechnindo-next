@@ -3,65 +3,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
-{/* TOP BAR */}
-<section className="border-b border-slate-200 bg-slate-950 text-white">
-<div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-3 text-sm md:flex-row md:items-center md:justify-between">
-<div className="flex flex-col gap-1 md:flex-row md:items-center md:gap-6">
-<span>031 866 5800</span>
-<span>project@mktechnindo.co.id</span>
-<span>Waru, Sidoarjo, Jawa Timur</span>
-</div>
-<a
-href="#contact"
-className="inline-flex w-fit rounded-full bg-amber-500 px-4 py-2 font-medium text-slate-950 hover:bg-amber-400"
->
-Konsultasi Sekarang
-</a>
-</div>
-</section>
-
-{/* HEADER */}
-<header className="sticky top-0 z-50 border-b border-slate-200 bg-white">
-<div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-<div>
-<p className="text-lg font-bold tracking-wide text-slate-900">
-MK Technindo
-</p>
-<p className="text-xs uppercase tracking-[0.3em] text-slate-500">
-Industrial Fabrication
-</p>
-</div>
-
-<nav className="hidden items-center gap-8 text-sm font-medium text-slate-700 md:flex">
-<a href="#home" className="hover:text-amber-500">
-Home
-</a>
-<a href="#about" className="hover:text-amber-500">
-Tentang
-</a>
-<a href="#services" className="hover:text-amber-500">
-Layanan
-</a>
-<a href="#industries" className="hover:text-amber-500">
-Industri
-</a>
-<a href="#projects" className="hover:text-amber-500">
-Proyek
-</a>
-<a href="#contact" className="hover:text-amber-500">
-Kontak
-</a>
-</nav>
-
-<a
-href="#contact"
-className="hidden rounded-full bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-700 md:inline-flex"
->
-Diskusikan Proyek
-</a>
-</div>
-</header>
-
 {/* HERO */}
 <section
 id="home"
@@ -120,7 +61,8 @@ Berbasis di Sidoarjo, melayani Indonesia
 src="/images/hero/conveyor-main.webp"
 alt="Conveyor system dan proses fabrikasi MK Technindo"
 fill
-className="object-cover"
+className="object-cover transition duration-300 hover:scale-105"
+
 priority
 />
 </div>
@@ -260,7 +202,7 @@ desc: "Kebutuhan spesifik? Tim MK Technindo siap membantu pengembangan solusi fa
 ].map((service) => (
 <div
 key={service.title}
-className="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm"
+className="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
 >
 <h3 className="text-xl font-semibold text-slate-900">
 {service.title}
@@ -406,14 +348,16 @@ image: "/images/projects/project-3.webp",
 ].map((project) => (
 <div
 key={project.title}
-className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+
 >
 <div className="relative mb-5 aspect-[16/10] overflow-hidden rounded-2xl">
 <Image
 src={project.image}
 alt={project.title}
 fill
-className="object-cover"
+className="object-cover transition duration-300 hover:scale-105"
+
 />
 </div>
 <h3 className="text-xl font-semibold text-slate-900">
@@ -581,69 +525,6 @@ Kirim Pertanyaan
 </div>
 </div>
 </section>
-{/* FOOTER */}
-<footer className="bg-slate-950 text-slate-300">
-<div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-3">
-<div>
-<h3 className="text-xl font-bold text-white">MK Technindo</h3>
-<p className="mt-4 leading-7 text-slate-400">
-MK Technindo adalah perusahaan fabrikasi industrial equipment
-dengan fokus pada pembuatan conveyor system dan solusi custom
-untuk kebutuhan manufaktur.
-</p>
-</div>
-
-<div>
-<h4 className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
-Kontak
-</h4>
-<ul className="mt-4 space-y-3 leading-7 text-slate-400">
-<li>031 866 5800</li>
-<li>project@mktechnindo.co.id</li>
-<li>Waru, Sidoarjo, Jawa Timur</li>
-<li>Senin - Sabtu, 08:00 - 16:00</li>
-</ul>
-</div>
-
-<div>
-<h4 className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
-Navigasi
-</h4>
-<ul className="mt-4 space-y-3 text-slate-400">
-<li>
-<a href="#about" className="hover:text-white">
-Tentang Kami
-</a>
-</li>
-<li>
-<a href="#services" className="hover:text-white">
-Layanan
-</a>
-</li>
-<li>
-<a href="#industries" className="hover:text-white">
-Industri
-</a>
-</li>
-<li>
-<a href="#projects" className="hover:text-white">
-Proyek
-</a>
-</li>
-<li>
-<a href="#contact" className="hover:text-white">
-Kontak
-</a>
-</li>
-</ul>
-</div>
-</div>
-
-<div className="border-t border-white/10 px-6 py-5 text-center text-sm text-slate-500">
-© 2026 Maju Kawan Technindo. All rights reserved.
-</div>
-</footer>
-
 </main>
 );
 }
