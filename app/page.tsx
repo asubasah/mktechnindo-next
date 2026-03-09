@@ -6,11 +6,19 @@ export default function Home() {
 {/* HERO */}
 <section
 id="home"
-className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white"
+className="relative overflow-hidden bg-gradient-to-br from-[#0f172a] via-[#1f1720] to-[#3b0d0d] text-white"
 >
-<div className="mx-auto grid max-w-7xl gap-12 px-6 py-20 md:grid-cols-2 md:items-center md:py-28">
+{/* stronger dark red corporate glow */}
+<div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(127,29,29,0.42),transparent_28%)]" />
+<div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(153,27,27,0.26),transparent_32%)]" />
+<div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(15,23,42,0.88)_0%,rgba(31,23,32,0.78)_45%,rgba(59,13,13,0.72)_100%)]" />
+
+{/* subtle light balance */}
+<div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.05),transparent_36%)]" />
+
+<div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-20 md:grid-cols-2 md:items-center md:py-28">
 <div>
-<p className="mb-4 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm text-slate-200">
+<p className="mb-4 inline-block rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm text-slate-200 shadow-sm backdrop-blur-sm">
 Solusi Fabrikasi untuk Kebutuhan Industri
 </p>
 
@@ -28,49 +36,65 @@ di lapangan.
 
 <div className="mt-8 flex flex-col gap-4 sm:flex-row">
 <a
-href="#contact"
-className="inline-flex items-center justify-center rounded-full bg-amber-500 px-6 py-3 font-semibold text-slate-950 hover:bg-amber-400"
+href="https://wa.me/628113643846?text=Halo%20MK%20Technindo,%20saya%20ingin%20konsultasi%20terkait%20kebutuhan%20conveyor%20dan%20industrial%20equipment."
+target="_blank"
+rel="noreferrer"
+className="inline-flex items-center justify-center gap-2 rounded-full bg-amber-500 px-6 py-3 font-semibold text-slate-950 shadow-lg transition hover:bg-amber-400"
 >
-Konsultasi Proyek
+<svg
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 32 32"
+className="h-5 w-5 fill-current"
+aria-hidden="true"
+>
+<path d="M19.11 17.21c-.29-.15-1.7-.84-1.96-.93-.26-.1-.45-.15-.64.15-.19.29-.74.93-.91 1.12-.17.19-.33.22-.62.07-.29-.15-1.21-.45-2.31-1.43-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.13-.6.14-.14.29-.33.43-.5.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.15-.64-1.54-.88-2.12-.23-.56-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.36-.26.29-.99.97-.99 2.37 0 1.4 1.02 2.75 1.16 2.94.15.19 2 3.06 4.84 4.28.68.29 1.21.46 1.62.59.68.22 1.3.19 1.79.11.55-.08 1.7-.69 1.94-1.35.24-.66.24-1.22.17-1.35-.07-.12-.26-.19-.55-.33Z" />
+<path d="M16.03 3C8.84 3 3 8.73 3 15.81c0 2.28.61 4.42 1.67 6.28L3 29l7.15-1.86a13.1 13.1 0 0 0 5.88 1.41h.01c7.19 0 13.03-5.73 13.03-12.81C29.07 8.73 23.22 3 16.03 3Zm0 23.4h-.01a10.7 10.7 0 0 1-5.45-1.49l-.39-.23-4.24 1.1 1.13-4.11-.25-.42a10.47 10.47 0 0 1-1.62-5.44c0-5.88 4.85-10.66 10.82-10.66 5.96 0 10.81 4.78 10.81 10.66S22 26.4 16.03 26.4Z" />
+</svg>
+<span>Konsultasi Proyek</span>
 </a>
+
+
 <a
-href="#services"
-className="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 font-semibold text-white hover:bg-white/10"
+href="/layanan"
+className="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
 >
 Lihat Layanan
 </a>
 </div>
 
 <div className="mt-10 grid gap-4 text-sm text-slate-300 sm:grid-cols-3">
-<div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+<div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
 Custom sesuai kebutuhan industri
 </div>
-<div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+<div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
 Berpengalaman di berbagai sektor manufaktur
 </div>
-<div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+<div className="rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
 Berbasis di Sidoarjo, melayani Indonesia
 </div>
 </div>
 </div>
 
 <div>
-<div className="rounded-[28px] border border-white/10 bg-white/5 p-4 shadow-2xl backdrop-blur-sm">
-<div className="relative aspect-[4/3] overflow-hidden rounded-[20px]">
+<div className="group rounded-[28px] border border-white/10 bg-white/5 p-4 shadow-2xl backdrop-blur-sm transition duration-500 ease-out hover:-translate-y-1 hover:shadow-[0_25px_60px_rgba(0,0,0,0.35)]">
 
+<div className="group relative aspect-[4/3] overflow-hidden rounded-[20px]">
 <Image
 src="/images/hero/conveyor-main.webp"
 alt="Conveyor system dan proses fabrikasi MK Technindo"
 fill
-className="object-cover transition duration-300 hover:scale-105"
-
+className="object-cover transition duration-700 ease-out group-hover:scale-110 group-hover:rotate-[0.2deg]"
 priority
 />
+
+<div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent" />
 </div>
 </div>
 </div>
 </div>
 </section>
+
+
 
 {/* CLIENT TRUST */}
 <section className="border-b border-slate-200 bg-white">
@@ -364,7 +388,7 @@ image: "/images/projects/project-1.webp",
 {
 title: "Material Handling untuk Operasional Pabrik",
 desc: "Solusi conveyor dan equipment pendukung untuk memperlancar perpindahan material dalam proses kerja industri.",
-image: "/images/projects/project-2.webp",
+image: "/images/projects/project-2_ok.webp",
 },
 {
 title: "Custom Fabrication untuk Kebutuhan Produksi Spesifik",

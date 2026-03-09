@@ -2,8 +2,15 @@ export default function LayananPage() {
 return (
 <main className="min-h-screen bg-white text-slate-900">
 {/* HERO */}
-<section className="border-b border-slate-200 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white">
-<div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
+<section className="relative overflow-hidden border-b border-slate-800 bg-gradient-to-br from-[#0f172a] via-[#1f1720] to-[#3b0d0d] text-white">
+
+
+<div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(127,29,29,0.36),transparent_28%)]" />
+<div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(153,27,27,0.20),transparent_32%)]" />
+<div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.04),transparent_36%)]" />
+
+<div className="relative mx-auto max-w-7xl px-6 py-20 md:py-28">
+
 <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
 Layanan
 </p>
@@ -115,13 +122,23 @@ relevan.
 
 <div className="mt-8 flex flex-col gap-4 sm:flex-row">
 <a
-href="https://wa.me/628113643846"
+href="https://wa.me/628113643846?text=Halo%20MK%20Technindo,%20saya%20ingin%20konsultasi%20terkait%20kebutuhan%20conveyor%20dan%20industrial%20equipment."
 target="_blank"
 rel="noreferrer"
-className="inline-flex items-center justify-center rounded-full bg-amber-500 px-6 py-3 font-semibold text-slate-950 hover:bg-amber-400"
+className="inline-flex items-center justify-center gap-2 rounded-full bg-amber-500 px-6 py-3 font-semibold text-slate-950 shadow-lg transition hover:bg-amber-400"
 >
-Hubungi via WhatsApp
+<svg
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 32 32"
+className="h-5 w-5 fill-current"
+aria-hidden="true"
+>
+<path d="M19.11 17.21c-.29-.15-1.7-.84-1.96-.93-.26-.1-.45-.15-.64.15-.19.29-.74.93-.91 1.12-.17.19-.33.22-.62.07-.29-.15-1.21-.45-2.31-1.43-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.13-.6.14-.14.29-.33.43-.5.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.15-.64-1.54-.88-2.12-.23-.56-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.36-.26.29-.99.97-.99 2.37 0 1.4 1.02 2.75 1.16 2.94.15.19 2 3.06 4.84 4.28.68.29 1.21.46 1.62.59.68.22 1.3.19 1.79.11.55-.08 1.7-.69 1.94-1.35.24-.66.24-1.22.17-1.35-.07-.12-.26-.19-.55-.33Z" />
+<path d="M16.03 3C8.84 3 3 8.73 3 15.81c0 2.28.61 4.42 1.67 6.28L3 29l7.15-1.86a13.1 13.1 0 0 0 5.88 1.41h.01c7.19 0 13.03-5.73 13.03-12.81C29.07 8.73 23.22 3 16.03 3Zm0 23.4h-.01a10.7 10.7 0 0 1-5.45-1.49l-.39-.23-4.24 1.1 1.13-4.11-.25-.42a10.47 10.47 0 0 1-1.62-5.44c0-5.88 4.85-10.66 10.82-10.66 5.96 0 10.81 4.78 10.81 10.66S22 26.4 16.03 26.4Z" />
+</svg>
+<span>Hubungi via Whatsapp</span>
 </a>
+
 
 <a
 href="mailto:project@mktechnindo.co.id"

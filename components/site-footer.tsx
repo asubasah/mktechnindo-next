@@ -2,11 +2,13 @@ import Image from "next/image";
 
 export default function SiteFooter() {
 return (
-<footer className="bg-slate-950 text-slate-300">
+<footer className="border-t border-white/5 bg-gradient-to-br from-[#020617] via-[#111827] to-[#1f1720] text-slate-300">
+
 <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-3">
 {/* BRAND */}
 <div>
-<div className="inline-flex rounded-2xl bg-white/95 px-4 py-3 shadow-sm">
+<div className="inline-flex rounded-2xl bg-white/95 px-4 py-3 shadow-md ring-1 ring-white/10">
+
 <Image
 src="/images/logos/logo_mktech.png"
 alt="Logo MK Technindo"

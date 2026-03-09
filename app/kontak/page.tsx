@@ -2,8 +2,14 @@ export default function KontakPage() {
 return (
 <main className="min-h-screen bg-white text-slate-900">
 {/* HERO */}
-<section className="border-b border-slate-200 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white">
-<div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
+<section className="relative overflow-hidden border-b border-slate-800 bg-gradient-to-br from-[#0f172a] via-[#1f1720] to-[#3b0d0d] text-white">
+
+<div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(127,29,29,0.36),transparent_28%)]" />
+<div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(153,27,27,0.20),transparent_32%)]" />
+<div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.04),transparent_36%)]" />
+
+<div className="relative mx-auto max-w-7xl px-6 py-20 md:py-28">
+
 <p className="text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
 Kontak
 </p>
