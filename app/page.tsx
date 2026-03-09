@@ -55,8 +55,9 @@ Berbasis di Sidoarjo, melayani Indonesia
 </div>
 
 <div>
-<div className="rounded-3xl border border-white/10 bg-white/5 p-4 shadow-2xl">
-<div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+<div className="rounded-[28px] border border-white/10 bg-white/5 p-4 shadow-2xl backdrop-blur-sm">
+<div className="relative aspect-[4/3] overflow-hidden rounded-[20px]">
+
 <Image
 src="/images/hero/conveyor-main.webp"
 alt="Conveyor system dan proses fabrikasi MK Technindo"
@@ -80,22 +81,46 @@ Dipercaya oleh perusahaan dari berbagai sektor industri
 
 <div className="mt-8 grid gap-4 md:grid-cols-5">
 {[
-"Yazaki Group",
-"Sreeya",
-"Indococonut",
-"Charoen Pokphand",
-"Ecco",
+{
+name: "Yazaki Group",
+image: "/images/logos/clients/sai.png",
+},
+{
+name: "Sreeya",
+image: "/images/logos/clients/sreeya.png",
+},
+{
+name: "Indococonut",
+image: "/images/logos/clients/indococonut.png",
+},
+{
+name: "Charoen Pokphand",
+image: "/images/logos/clients/cpp.png",
+},
+{
+name: "Ecco",
+image: "/images/logos/clients/ecco.png",
+},
 ].map((client) => (
 <div
-key={client}
-className="flex items-center justify-center rounded-2xl border border-slate-200 bg-slate-50 px-4 py-5 text-center font-semibold text-slate-700"
+key={client.name}
+className="flex items-center justify-center rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+
 >
-{client}
+<div className="relative h-14 w-full">
+<Image
+src={client.image}
+alt={client.name}
+fill
+className="object-contain"
+/>
+</div>
 </div>
 ))}
 </div>
 
-<p className="mx-auto mt-6 max-w-3xl text-center text-sm leading-7 text-slate-600">
+
+<p className="mx-auto mt-6 max-w-3xl text-center text-sm leading-7 text-slate-500">
 MK Technindo telah mendukung kebutuhan fabrikasi dan conveyor system
 untuk perusahaan di sektor food processing, pet food, logistics,
 automotive component, footwear, dan manufaktur lainnya.
@@ -301,7 +326,8 @@ desc: "Kami terbiasa menangani requirement yang spesifik sesuai ruang kerja, alu
 ].map((item) => (
 <div
 key={item.title}
-className="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm"
+className="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+
 >
 <h3 className="text-xl font-semibold text-slate-900">
 {item.title}
@@ -417,7 +443,8 @@ desc: "Pendampingan lanjutan untuk memastikan fungsi berjalan sesuai kebutuhan."
 ].map((item) => (
 <div
 key={item.step}
-className="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm"
+className="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+
 >
 <p className="text-sm font-bold tracking-[0.3em] text-amber-500">
 {item.step}
@@ -473,7 +500,8 @@ a: "Bisa didiskusikan sesuai ruang lingkup proyek dan kebutuhan pekerjaan.",
 ].map((faq) => (
 <div
 key={faq.q}
-className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+
 >
 <h3 className="text-lg font-semibold text-slate-900">
 {faq.q}

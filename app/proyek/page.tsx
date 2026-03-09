@@ -34,7 +34,7 @@ image: "/images/projects/project-1.webp",
 {
 title: "Material Handling untuk Operasional Pabrik",
 desc: "Solusi conveyor dan equipment pendukung untuk memperlancar perpindahan material dalam proses kerja industri.",
-image: "/images/projects/project-2.webp",
+image: "/images/projects/project-2_ok.webp",
 },
 {
 title: "Custom Fabrication untuk Kebutuhan Produksi Spesifik",
