@@ -1,0 +1,351 @@
+{
+  "locale": "id",
+  "lang": "Indonesia",
+  "flag": "🇮🇩",
+
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "services": "Layanan",
+    "industries": "Industri",
+    "projects": "Proyek",
+    "contact": "Kontak"
+  },
+
+  "header": {
+    "cta": "Konsultasi Sekarang"
+  },
+
+  "footer": {
+    "description": "MK Technindo adalah perusahaan fabrikasi industrial equipment dengan fokus pada pembuatan conveyor system dan solusi custom untuk kebutuhan manufaktur.",
+    "contact": "Kontak",
+    "navigation": "Navigasi",
+    "hours": "Senin – Jumat, 08.00 – 17.00 WIB",
+    "copyright": "© 2026 MK Technindo. Seluruh hak cipta dilindungi.",
+    "address": "Pergudangan Grand Tambak Sawah No. B7, Jabon, Waru, Sidoarjo, Jawa Timur"
+  },
+
+  "greetings": {
+    "id": { "text": "Selamat Datang", "sub": "Solusi Fabrikasi Industri Terpercaya" },
+    "en": { "text": "Welcome", "sub": "Your Trusted Industrial Fabrication Partner" },
+    "ja": { "text": "ようこそ", "sub": "信頼できる産業用製造ソリューション" },
+    "ko": { "text": "환영합니다", "sub": "신뢰할 수 있는 산업 제조 솔루션" },
+    "zh": { "text": "欢迎光临", "sub": "值得信赖的工业制造解决方案" },
+    "jv": { "text": "Sugeng Rawuh", "sub": "Solusi Fabrikasi Industri sing Dipercaya" }
+  },
+
+  "hero": {
+    "badge": "Solusi Fabrikasi untuk Kebutuhan Industri",
+    "title": "Spesialis Fabrikasi Conveyor dan Peralatan Industri",
+    "subtitle": "MK Technindo membantu perusahaan manufaktur merancang dan memproduksi conveyor system serta peralatan industri yang fungsional, presisi, dan disesuaikan dengan kebutuhan operasional di lapangan.",
+    "ctaPrimary": "Konsultasi Proyek",
+    "ctaSecondary": "Lihat Layanan",
+    "tag1": "Custom sesuai kebutuhan industri",
+    "tag2": "Berpengalaman di berbagai sektor manufaktur",
+    "tag3": "Berbasis di Sidoarjo, melayani seluruh Indonesia"
+  },
+
+  "clients": {
+    "title": "Dipercaya oleh mitra industri dan perusahaan manufaktur ternama",
+    "description": "MK Technindo telah mendampingi kebutuhan fabrikasi bagi perusahaan besar seperti PT INKA Madiun, PT Surabaya Autocomp Indonesia, PT Jatim Autocomp Indonesia, PT Jasuindo Tiga Perkasa, serta berbagai sektor industri makanan, logistik, dan otomotif."
+  },
+
+  "about": {
+    "badge": "Tentang MK Technindo",
+    "title": "Mitra Fabrikasi yang Memahami Kebutuhan Industri",
+    "description": "MK Technindo bergerak di bidang fabrikasi industrial equipment dengan fokus utama pada pembuatan conveyor system dan solusi pendukung operasional pabrik. Kami membantu perusahaan yang membutuhkan sistem kerja yang lebih efisien, rapi, dan sesuai kebutuhan proses produksi.",
+    "card1Title": "Fokus pada kebutuhan aktual di lapangan",
+    "card1Desc": "Solusi yang dikerjakan disesuaikan dengan kebutuhan operasional, alur kerja, dan tantangan nyata di area produksi.",
+    "card2Title": "Fabrikasi custom sesuai spesifikasi",
+    "card2Desc": "Setiap proyek dirancang dengan pendekatan fleksibel agar hasil akhir benar-benar relevan dengan kebutuhan klien.",
+    "card3Title": "Mendukung berbagai sektor industri",
+    "card3Desc": "Berpengalaman menangani kebutuhan conveyor system dan industrial equipment untuk berbagai jenis operasional manufaktur."
+  },
+
+  "services": {
+    "badge": "Layanan Utama",
+    "title": "Solusi Fabrikasi dan Conveyor System untuk Kebutuhan Industri",
+    "description": "MK Technindo menghadirkan layanan yang dirancang untuk mendukung proses kerja industri secara lebih efisien, terstruktur, dan sesuai kebutuhan operasional.",
+    "items": [
+      {
+        "title": "Custom Conveyor System",
+        "desc": "Pembuatan conveyor system yang disesuaikan dengan alur kerja, kapasitas, dan kebutuhan operasional industri."
+      },
+      {
+        "title": "Industrial Equipment Fabrication",
+        "desc": "Fabrikasi berbagai peralatan industri untuk mendukung proses produksi, material handling, dan kebutuhan teknis lainnya."
+      },
+      {
+        "title": "Modifikasi & Rekonstruksi",
+        "desc": "Penyesuaian, perbaikan, atau pengembangan ulang sistem dan peralatan yang sudah ada agar lebih relevan dengan kebutuhan saat ini."
+      },
+      {
+        "title": "Dukungan Instalasi",
+        "desc": "Dukungan instalasi dan implementasi di lapangan agar sistem dapat berjalan sesuai rencana dan fungsi yang diharapkan."
+      },
+      {
+        "title": "Konsultasi Teknis",
+        "desc": "Diskusi kebutuhan proyek sebelum pengerjaan dimulai, untuk membantu menentukan solusi yang paling tepat dan efisien."
+      },
+      {
+        "title": "Permintaan Proyek Khusus",
+        "desc": "Kebutuhan spesifik? Tim MK Technindo siap membantu pengembangan solusi fabrikasi sesuai requirement Anda."
+      }
+    ]
+  },
+
+  "industries": {
+    "badge": "Industri yang Dilayani",
+    "title": "Mendukung Berbagai Sektor Industri dan Manufaktur",
+    "description": "MK Technindo menangani kebutuhan conveyor system dan fabrikasi peralatan industri untuk berbagai jenis operasional manufaktur, distribusi, dan material handling.",
+    "items": [
+      "Food Processing",
+      "Frozen Food",
+      "Pet Food",
+      "Logistik & Pergudangan",
+      "Industri Alas Kaki",
+      "Komponen Otomotif",
+      "Consumer Goods",
+      "Operasional Industri Khusus"
+    ]
+  },
+
+  "whyUs": {
+    "badge": "Mengapa Memilih MK Technindo",
+    "title": "Pendekatan yang Tepat untuk Kebutuhan Operasional Industri",
+    "description": "Kami memahami bahwa kebutuhan industri tidak dapat diselesaikan dengan solusi generik. Setiap proyek dikerjakan dengan fokus pada fungsi, efisiensi, dan kebutuhan nyata di lapangan.",
+    "items": [
+      {
+        "title": "Custom sesuai kebutuhan operasional",
+        "desc": "Setiap proyek dirancang berdasarkan kebutuhan aktual di lapangan, bukan sekadar solusi template."
+      },
+      {
+        "title": "Fokus pada fungsi dan efisiensi",
+        "desc": "Peralatan industri harus bekerja stabil, relevan, dan mendukung proses produksi secara nyata."
+      },
+      {
+        "title": "Komunikasi teknis yang jelas",
+        "desc": "Diskusi kebutuhan dilakukan secara terstruktur agar solusi yang dikerjakan benar-benar sesuai target."
+      },
+      {
+        "title": "Berpengalaman di berbagai sektor",
+        "desc": "Kami telah menangani kebutuhan dari berbagai perusahaan manufaktur dengan karakter operasional yang beragam."
+      },
+      {
+        "title": "Dukungan dari awal hingga implementasi",
+        "desc": "Mulai dari konsultasi, fabrikasi, hingga dukungan pemasangan dan penyesuaian di lapangan."
+      },
+      {
+        "title": "Siap untuk kebutuhan custom",
+        "desc": "Kami terbiasa menangani requirement yang spesifik sesuai ruang kerja, alur produksi, dan tujuan proyek."
+      }
+    ]
+  },
+
+  "projects": {
+    "badge": "Contoh Kebutuhan yang Kami Tangani",
+    "title": "Solusi yang Disesuaikan dengan Tantangan Operasional Klien",
+    "items": [
+      {
+        "title": "Robot Arm & Auto Wrapping",
+        "desc": "Implementasi teknologi otomasi robotik dan mesin pembungkus otomatis untuk efisiensi lini produksi."
+      },
+      {
+        "title": "Lift Cargo & Material Handling",
+        "desc": "Solusi lift barang dan conveyor untuk memperlancar perpindahan material dalam proses kerja industri."
+      },
+      {
+        "title": "Custom Fabrication & CNC Shearing",
+        "desc": "Pengerjaan peralatan industri presisi tinggi menggunakan teknologi CNC dan Laser sesuai spesifikasi klien."
+      }
+    ]
+  },
+
+  "process": {
+    "badge": "Alur Kerja Kami",
+    "title": "Proses yang Terstruktur untuk Hasil yang Lebih Tepat",
+    "description": "MK Technindo menjalankan proses kerja yang terarah agar kebutuhan klien dapat diterjemahkan menjadi solusi fabrikasi yang tepat, fungsional, dan siap digunakan.",
+    "steps": [
+      { "step": "01", "title": "Konsultasi Kebutuhan", "desc": "Diskusi awal mengenai kebutuhan operasional, tantangan, dan target proyek." },
+      { "step": "02", "title": "Survey & Technical Review", "desc": "Analisis kondisi lapangan dan requirement teknis untuk menentukan pendekatan yang tepat." },
+      { "step": "03", "title": "Desain & Fabrikasi", "desc": "Pengembangan solusi dan proses pengerjaan sesuai spesifikasi proyek yang telah disepakati." },
+      { "step": "04", "title": "Instalasi & Implementasi", "desc": "Dukungan pemasangan dan penyesuaian agar sistem siap dioperasikan." },
+      { "step": "05", "title": "Evaluasi & Dukungan Lanjutan", "desc": "Pendampingan lanjutan untuk memastikan fungsi berjalan sesuai kebutuhan." }
+    ]
+  },
+
+  "faq": {
+    "badge": "FAQ",
+    "title": "Pertanyaan yang Sering Ditanyakan",
+    "description": "Beberapa pertanyaan umum seputar layanan fabrikasi dan conveyor system di MK Technindo.",
+    "items": [
+      {
+        "q": "Apakah MK Technindo bisa membuat conveyor sesuai kebutuhan custom?",
+        "a": "Ya. Kami menangani kebutuhan custom berdasarkan spesifikasi, ruang kerja, dan tujuan operasional masing-masing klien."
+      },
+      {
+        "q": "Industri apa saja yang biasa dilayani?",
+        "a": "Kami melayani berbagai sektor seperti food processing, pet food, logistics, footwear manufacturing, automotive component, dan kebutuhan industri lainnya."
+      },
+      {
+        "q": "Apakah bisa konsultasi sebelum proyek dimulai?",
+        "a": "Bisa. Kami membuka diskusi awal untuk memahami kebutuhan dan membantu menentukan solusi yang paling sesuai."
+      },
+      {
+        "q": "Apakah melayani instalasi juga?",
+        "a": "Tergantung kebutuhan proyek. MK Technindo dapat mendukung proses implementasi dan penyesuaian di lapangan."
+      },
+      {
+        "q": "Apakah bisa melayani proyek di luar Jawa Timur?",
+        "a": "Bisa didiskusikan sesuai ruang lingkup proyek dan kebutuhan pekerjaan."
+      }
+    ]
+  },
+
+  "cta": {
+    "badge": "Konsultasi Proyek",
+    "title": "Diskusikan Kebutuhan Conveyor dan Peralatan Industri Anda Bersama MK Technindo",
+    "description": "Butuh solusi fabrikasi yang lebih sesuai dengan proses kerja industri Anda? Tim MK Technindo siap membantu dari tahap konsultasi hingga implementasi.",
+    "whatsapp": "Hubungi via WhatsApp",
+    "email": "project@mktechnindo.co.id"
+  },
+
+  "chat": {
+    "title": "MK Technindo AI",
+    "subtitle": "Asisten Industri",
+    "placeholder": "Tulis pesan Anda...",
+    "send": "Kirim",
+    "welcome": "Halo! Saya asisten AI MK Technindo. Silakan tanyakan kebutuhan conveyor system atau fabrikasi industri. Anda juga bisa mengunggah gambar teknis/foto lewat ikon upload di bawah.",
+    "thinking": "Sedang membalas..."
+  },
+
+  "aboutPage": {
+    "badge": "Tentang Kami",
+    "heroTitle": "MK Technindo, Mitra Fabrikasi untuk Conveyor dan Peralatan Industri",
+    "heroDesc": "MK Technindo bergerak di bidang fabrikasi industrial equipment dengan fokus pada pembuatan conveyor system dan solusi custom untuk mendukung kebutuhan operasional manufaktur.",
+    "profileBadge": "Profil Perusahaan",
+    "profileTitle": "Fokus pada Solusi yang Relevan dengan Kebutuhan Industri",
+    "p1": "MK Technindo hadir untuk membantu perusahaan manufaktur dan sektor industri yang membutuhkan conveyor system serta peralatan industri yang dirancang sesuai kebutuhan aktual di lapangan.",
+    "p2": "Kami memahami bahwa setiap proses produksi memiliki karakter, kapasitas, dan tantangan yang berbeda. Karena itu, pendekatan yang kami lakukan berfokus pada fungsi, efisiensi, dan kecocokan solusi terhadap operasional klien.",
+    "p3": "Dengan pengalaman menangani berbagai kebutuhan fabrikasi dan conveyor system, MK Technindo berkomitmen menghadirkan hasil kerja yang lebih terarah dan relevan untuk kebutuhan industri modern.",
+    "strengthBadge": "Keunggulan Kami",
+    "strengthTitle": "Pendekatan yang Lebih Tepat untuk Kebutuhan Fabrikasi Industri",
+    "strengthDesc": "MK Technindo tidak hanya berfokus pada pengerjaan, tetapi juga memastikan solusi yang dibuat benar-benar relevan dengan kebutuhan operasional klien.",
+    "strengths": [
+      { "title": "Custom sesuai kebutuhan", "desc": "Setiap proyek dikerjakan berdasarkan requirement aktual, bukan pendekatan template." },
+      { "title": "Fokus pada fungsi", "desc": "Solusi yang dibuat diarahkan untuk mendukung efisiensi dan kelancaran operasional." },
+      { "title": "Komunikasi teknis yang jelas", "desc": "Diskusi proyek dijaga tetap terarah agar hasil akhir sesuai ekspektasi." },
+      { "title": "Siap untuk berbagai sektor", "desc": "Berpengalaman menangani kebutuhan dari berbagai jenis industri dan manufaktur." }
+    ],
+    "milestones": {
+      "badge": "Perjalanan Kami",
+      "title": "Dedikasi dan Inovasi Sejak 2015",
+      "items": [
+        { "year": "2015", "title": "Awal Berdiri", "desc": "Berdiri dengan nama CV. Maju Kawan Technindo dengan 3 karyawan, fokus pada proyek awal seperti pembuatan trolley.", "image": "/images/milestones/2015.png" },
+        { "year": "2016", "title": "Pengembangan Administrasi", "desc": "Pembenahan sistem administrasi dan keuangan serta penambahan tim hingga 17 orang.", "image": "/images/milestones/2016.png" },
+        { "year": "2018", "title": "Menjadi PKP", "desc": "Resmi menjadi Pengusaha Kena Pajak (PKP) dan menambah tenaga drafter profesional untuk desain fabrikasi.", "image": "/images/milestones/2018.png" },
+        { "year": "2019", "title": "Kepercayaan Industri Besar", "desc": "Mulai dipercaya oleh perusahaan besar seperti PT INKA Madiun dan jaringan Autocomp Indonesia.", "image": "/images/milestones/2019.png" },
+        { "year": "2020", "title": "Investasi Teknologi CNC", "desc": "Peningkatan sarana peralatan kerja dengan mesin CNC Bending dan CNC Shearing.", "image": "/images/milestones/2020.png" },
+        { "year": "2021", "title": "Ekspansi Workshop", "desc": "Beroperasi dengan dukungan 2 area workshop yang luas untuk mempercepat kinerja produksi.", "image": "/images/milestones/2021.png" },
+        { "year": "2023", "title": "Transformasi Digital", "desc": "Pembentukan tim digital marketing untuk memperluas jangkauan informasi layanan ke seluruh Indonesia.", "image": "/images/milestones/2023.png" },
+        { "year": "2025", "title": "Teknologi Laser Modern", "desc": "Penambahan teknologi Laser Pipa lan Laser Welding kanggo asil produksi sing luwih presisi.", "image": "/images/milestones/2025.png" },
+        { "year": "2026", "title": "Efisiensi Sistem ODOO", "desc": "Implementasi sistem ODOO untuk manajemen operasional yang lebih efisien dan terintegrasi.", "image": "/images/milestones/2026.png" }
+      ]
+    },
+    "visionTitle": "Visi Kami",
+    "visionDesc": "Menjadi mitra fabrikasi industrial equipment terdepan yang mengedepankan inovasi, presisi, dan solusi tepat guna untuk mendukung kemajuan industri manufaktur di Indonesia.",
+    "missionTitle": "Misi Kami",
+    "missionItems": [
+      "Menghasilkan produk fabrikasi berkualitas tinggi yang sesuai dengan standar teknis dan fungsionalitas industri.",
+      "Mengembangkan solusi conveyor system yang inovatif untuk meningkatkan efisiensi operasional klien.",
+      "Membangun kemitraan jangka panjang yang didasarkan pada kepercayaan, profesionalisme, dan layanan purna jual yang andal.",
+      "Terus berinvestasi pada teknologi manufaktur terbaru untuk menjamin presisi dan kecepatan produksi."
+    ]
+  },
+
+  "servicesPage": {
+    "badge": "Layanan",
+    "heroTitle": "Layanan Fabrikasi Conveyor dan Industrial Equipment untuk Kebutuhan Manufaktur",
+    "heroDesc": "MK Technindo menghadirkan layanan yang dirancang untuk mendukung kebutuhan operasional industri secara lebih efisien, terarah, dan sesuai dengan requirement di lapangan.",
+    "approachBadge": "Pendekatan Kami",
+    "approachTitle": "Solusi yang Disesuaikan dengan Kebutuhan Aktual di Lapangan",
+    "ap1": "Setiap kebutuhan industri memiliki karakter yang berbeda. Karena itu MK Technindo tidak menggunakan pendekatan yang seragam untuk semua proyek.",
+    "ap2": "Kami memulai dari kebutuhan operasional, kondisi lapangan, requirement teknis, serta target penggunaan, agar solusi yang dibuat benar-benar relevan dengan pekerjaan klien.",
+    "ap3": "Dengan pendekatan yang lebih terarah, proses fabrikasi dapat menghasilkan sistem yang lebih sesuai, lebih fungsional, dan lebih siap digunakan.",
+    "ctaBadge": "Konsultasi Layanan",
+    "ctaTitle": "Diskusikan Kebutuhan Layanan yang Paling Sesuai untuk Industri Anda",
+    "ctaDesc": "Tim MK Technindo siap membantu Anda memahami kebutuhan proyek dan menentukan solusi fabrikasi atau conveyor system yang paling relevan."
+  },
+
+  "proPage": {
+    "badge": "Keunggulan Profesional",
+    "heroTitle": "Standar Profesional di Setiap Proyek",
+    "heroDesc": "MK Technindo menunjukkan komitmen teguh terhadap keunggulan profesional melalui precision engineering, manajemen proyek yang sistematis, dan pengiriman solusi yang melampaui ekspektasi industri.",
+    "standards": {
+      "badge": "Standar Profesional Kami",
+      "desc": "Setiap proyek mencerminkan dedikasi kami terhadap keunggulan profesional dan presisi teknis.",
+      "items": [
+        {
+          "title": "Precision Engineering",
+          "desc": "Setiap detail desain dan fabrikasi direkayasa dengan perhatian teliti terhadap spesifikasi teknis dan kebutuhan operasional."
+        },
+        {
+          "title": "Manajemen Proyek Sistematis",
+          "desc": "Pelaksanaan proyek yang terstruktur dari konsultasi hingga instalasi memastikan timeline yang dapat diprediksi dan kualitas yang konsisten."
+        },
+        {
+          "title": "Quality Assurance",
+          "desc": "Pemeriksaan kualitas yang ketat di setiap tahap menjamin solusi memenuhi standar industri dan ekspektasi klien."
+        },
+        {
+          "title": "Dokumentasi Teknis",
+          "desc": "Dokumentasi komprehensif dan komunikasi yang jelas memastikan transparansi dan traceability sepanjang siklus proyek."
+        },
+        {
+          "title": "Kepatuhan Keselamatan",
+          "desc": "Semua solusi mematuhi standar dan regulasi keselamatan yang relevan, mengutamakan keselamatan kerja dan keandalan operasional."
+        },
+        {
+          "title": "Perbaikan Berkelanjutan",
+          "desc": "Pelajaran dari setiap proyek mendorong penyempurnaan berkelanjutan terhadap proses, teknik, dan pengiriman layanan."
+        }
+      ]
+    },
+    "whyChoose": {
+      "badge": "Mengapa Memilih Profesional",
+      "title": "Nilai dari Keahlian Profesional",
+      "desc": "Bermitra dengan tim profesional berarti berinvestasi dalam keandalan, efisiensi, dan kesuksesan operasional jangka panjang.",
+      "items": [
+        {
+          "title": "Rekam Jejak Terbukti",
+          "desc": "Tahunan pengalaman di berbagai industri memberikan wawasan mendalam tentang beragam tantangan dan solusi operasional."
+        },
+        {
+          "title": "Kompetensi Teknis",
+          "desc": "Insinyur dan fabricator terampil membawa pengetahuan khusus ke setiap solusi custom."
+        },
+        {
+          "title": "Mitigasi Risiko",
+          "desc": "Pendekatan profesional meminimalkan risiko proyek melalui perencanaan cermat, validasi, dan kontrol kualitas."
+        },
+        {
+          "title": "Efisiensi Biaya",
+          "desc": "Eksekusi right-first-time mengurangi rework, downtime, dan total cost of ownership."
+        },
+        {
+          "title": "Kemitraan Jangka Panjang",
+          "desc": "Komitmen berlanjut setelah pengiriman dengan dukungan berkelanjutan dan rekomendasi perbaikan terus-menerus."
+        },
+        {
+          "title": "Akuntabilitas",
+          "desc": "Tanggung jawab yang jelas dan komunikasi transparan memastikan masalah diselesaikan dengan cepat dan profesional."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Rasakan Perbedaan Profesional",
+      "desc": "Temukan bagaimana pendekatan profesional MK Technindo dapat mentransformasi proyek peralatan industri dan conveyor system Anda.",
+      "email": "Kirim Pertanyaan Profesional"
+    }
+  }
+}

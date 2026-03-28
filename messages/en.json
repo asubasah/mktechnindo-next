@@ -1,0 +1,351 @@
+{
+  "locale": "en",
+  "lang": "English",
+  "flag": "🇬🇧",
+
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "industries": "Industries",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "header": {
+    "cta": "Get a Consultation"
+  },
+
+  "footer": {
+    "description": "MK Technindo is an industrial equipment fabrication company specialising in custom conveyor systems and manufacturing solutions tailored to operational requirements.",
+    "contact": "Contact",
+    "navigation": "Navigation",
+    "hours": "Monday – Friday, 08:00 – 17:00 WIB",
+    "copyright": "© 2026 MK Technindo. All rights reserved.",
+    "address": "Pergudangan Grand Tambak Sawah No. B7, Jabon, Waru, Sidoarjo, East Java, Indonesia"
+  },
+
+  "greetings": {
+    "id": { "text": "Selamat Datang", "sub": "Solusi Fabrikasi Industri Terpercaya" },
+    "en": { "text": "Welcome", "sub": "Your Trusted Industrial Fabrication Partner" },
+    "ja": { "text": "ようこそ", "sub": "信頼できる産業用製造ソリューション" },
+    "ko": { "text": "환영합니다", "sub": "신뢰할 수 있는 산업 제조 솔루션" },
+    "zh": { "text": "欢迎光临", "sub": "值得信赖的工业制造解决方案" },
+    "jv": { "text": "Sugeng Rawuh", "sub": "Solusi Fabrikasi Industri sing Dipercaya" }
+  },
+
+  "hero": {
+    "badge": "Industrial Fabrication Solutions",
+    "title": "Specialists in Conveyor Systems & Industrial Equipment Fabrication",
+    "subtitle": "MK Technindo partners with manufacturing companies to design and produce conveyor systems and industrial equipment that are functional, precise, and tailored to real-world operational requirements.",
+    "ctaPrimary": "Start a Consultation",
+    "ctaSecondary": "View Services",
+    "tag1": "Custom-built to your industry's specifications",
+    "tag2": "Experienced across multiple manufacturing sectors",
+    "tag3": "Based in Sidoarjo, serving all of Indonesia"
+  },
+
+  "clients": {
+    "title": "Trusted by major industrial partners and manufacturing companies",
+    "description": "MK Technindo has supported the fabrication needs of industry leaders including PT INKA Madiun, PT Surabaya Autocomp Indonesia, PT Jatim Autocomp Indonesia, PT Jasuindo Tiga Perkasa, as well as various sectors in food processing, logistics, and automotive."
+  },
+
+  "about": {
+    "badge": "About MK Technindo",
+    "title": "A Fabrication Partner That Understands Industrial Needs",
+    "description": "MK Technindo specialises in industrial equipment fabrication, with a primary focus on conveyor system manufacturing and factory operational support solutions. We help companies that require more efficient, organised workflows tailored to their specific production needs.",
+    "card1Title": "Grounded in real operational needs",
+    "card1Desc": "Every solution is designed around specific operational requirements, workflow patterns, and real-world challenges encountered on the factory floor.",
+    "card2Title": "Custom fabrication to specification",
+    "card2Desc": "Each project is approached flexibly to ensure the final result is genuinely aligned with the client's operational objectives.",
+    "card3Title": "Supporting diverse industrial sectors",
+    "card3Desc": "Experienced in delivering conveyor systems and industrial equipment across a wide range of manufacturing operations."
+  },
+
+  "services": {
+    "badge": "Core Services",
+    "title": "Fabrication & Conveyor System Solutions for Industrial Operations",
+    "description": "MK Technindo delivers services designed to support industrial workflows more efficiently, systematically, and in line with operational requirements.",
+    "items": [
+      {
+        "title": "Custom Conveyor Systems",
+        "desc": "Design and fabrication of conveyor systems tailored to your workflow, capacity, and operational requirements."
+      },
+      {
+        "title": "Industrial Equipment Fabrication",
+        "desc": "Fabrication of various industrial equipment to support production, material handling, and other technical requirements."
+      },
+      {
+        "title": "Modification & Rebuild",
+        "desc": "Adjustment, repair, or redevelopment of existing systems and equipment to better suit current operational needs."
+      },
+      {
+        "title": "Installation Support",
+        "desc": "On-site installation and commissioning support to ensure systems operate as designed and intended."
+      },
+      {
+        "title": "Technical Consultation",
+        "desc": "Pre-project consultations to thoroughly understand your requirements and identify the most appropriate solution."
+      },
+      {
+        "title": "Custom Project Requests",
+        "desc": "Have a specific requirement? The MK Technindo team is ready to develop a fabrication solution that meets your exact needs."
+      }
+    ]
+  },
+
+  "industries": {
+    "badge": "Industries Served",
+    "title": "Supporting Diverse Industries & Manufacturing Operations",
+    "description": "MK Technindo handles conveyor system and industrial equipment fabrication needs across a wide range of manufacturing, distribution, and material handling operations.",
+    "items": [
+      "Food Processing",
+      "Frozen Food",
+      "Pet Food",
+      "Logistics & Warehousing",
+      "Footwear Manufacturing",
+      "Automotive Components",
+      "Consumer Goods",
+      "Specialised Industrial Operations"
+    ]
+  },
+
+  "whyUs": {
+    "badge": "Why Choose MK Technindo",
+    "title": "The Right Approach for Industrial Operational Needs",
+    "description": "We understand that industrial challenges cannot be resolved with off-the-shelf solutions. Every project is executed with a focus on function, efficiency, and real-world operational requirements.",
+    "items": [
+      {
+        "title": "Custom-built for your operations",
+        "desc": "Every project is designed based on actual on-site requirements, not generic templates."
+      },
+      {
+        "title": "Function and efficiency first",
+        "desc": "Industrial equipment must operate reliably and genuinely support production processes."
+      },
+      {
+        "title": "Clear technical communication",
+        "desc": "Project discussions are kept structured and focused to ensure deliverables align with expectations."
+      },
+      {
+        "title": "Cross-sector experience",
+        "desc": "We have served manufacturers across multiple sectors, each with unique operational profiles."
+      },
+      {
+        "title": "End-to-end project support",
+        "desc": "From initial consultation and fabrication through to on-site installation and commissioning."
+      },
+      {
+        "title": "Ready for complex requirements",
+        "desc": "We are experienced in handling highly specific briefs tailored to unique workspaces and production goals."
+      }
+    ]
+  },
+
+  "projects": {
+    "badge": "Representative Projects",
+    "title": "Solutions Tailored to Each Client's Operational Challenges",
+    "items": [
+      {
+        "title": "Robot Arm & Auto Wrapping",
+        "desc": "Implementation of robotic automation and automatic wrapping machines for assembly line efficiency."
+      },
+      {
+        "title": "Lift Cargo & Material Handling",
+        "desc": "Cargo lift and conveyor solutions to streamline material flow within industrial processes."
+      },
+      {
+        "title": "Custom Fabrication & CNC Shearing",
+        "desc": "High-precision industrial equipment fabrication using CNC and Laser technology to client specifications."
+      }
+    ]
+  },
+
+  "process": {
+    "badge": "Our Process",
+    "title": "A Structured Approach for Consistent, Reliable Results",
+    "description": "MK Technindo follows a disciplined process to translate client requirements into fabrication solutions that are accurate, functional, and ready to deploy.",
+    "steps": [
+      { "step": "01", "title": "Requirements Consultation", "desc": "An initial discussion to understand operational needs, challenges, and project objectives." },
+      { "step": "02", "title": "Site Survey & Technical Review", "desc": "On-site analysis and technical assessment to define the most appropriate approach." },
+      { "step": "03", "title": "Design & Fabrication", "desc": "Solution development and fabrication carried out to agreed project specifications." },
+      { "step": "04", "title": "Installation & Commissioning", "desc": "On-site installation and system fine-tuning to ensure operational readiness." },
+      { "step": "05", "title": "Evaluation & Ongoing Support", "desc": "Post-installation follow-up to verify the system is performing as required." }
+    ]
+  },
+
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Common questions about fabrication services and conveyor systems at MK Technindo.",
+    "items": [
+      {
+        "q": "Can MK Technindo build a conveyor system to custom specifications?",
+        "a": "Yes. We handle custom requirements based on each client's specifications, workspace constraints, and operational objectives."
+      },
+      {
+        "q": "Which industries do you typically serve?",
+        "a": "We serve a wide range of sectors including food processing, pet food, logistics, footwear manufacturing, automotive components, and other industrial operations."
+      },
+      {
+        "q": "Is a consultation available before a project begins?",
+        "a": "Absolutely. We welcome initial discussions to fully understand your needs and recommend the most suitable solution."
+      },
+      {
+        "q": "Do you provide installation services?",
+        "a": "This depends on the scope of the project. MK Technindo can support implementation and on-site commissioning where required."
+      },
+      {
+        "q": "Can you serve projects outside of East Java?",
+        "a": "This is open to discussion based on the project scope and nature of the work required."
+      }
+    ]
+  },
+
+  "cta": {
+    "badge": "Project Consultation",
+    "title": "Discuss Your Conveyor & Industrial Equipment Needs with MK Technindo",
+    "description": "Looking for a fabrication solution that genuinely fits your operational workflow? The MK Technindo team is ready to assist from consultation through to full implementation.",
+    "whatsapp": "Contact via WhatsApp",
+    "email": "project@mktechnindo.co.id"
+  },
+
+  "chat": {
+    "title": "MK Technindo AI",
+    "subtitle": "Industrial Assistant",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "welcome": "Hello! I am MK Technindo's AI assistant. Ask me about conveyors or industrial fabrication. You can also upload drawings/photos via the upload icon.",
+    "thinking": "Composing reply..."
+  },
+
+  "aboutPage": {
+    "badge": "About Us",
+    "heroTitle": "MK Technindo — Your Fabrication Partner for Conveyors & Industrial Equipment",
+    "heroDesc": "MK Technindo specialises in industrial equipment fabrication, with a focus on conveyor systems and custom solutions for manufacturing operations.",
+    "profileBadge": "Company Profile",
+    "profileTitle": "Solutions Grounded in Real Industrial Requirements",
+    "p1": "MK Technindo was established to assist manufacturing companies and industrial sectors in need of conveyor systems and industrial equipment designed to precise, real-world specifications.",
+    "p2": "We recognise that every production process has its own unique character, capacity, and challenges. Our approach therefore focuses on functionality, efficiency, and genuine operational alignment.",
+    "p3": "With extensive experience in fabrication and conveyor system delivery, MK Technindo is committed to providing purposeful, relevant solutions for the demands of modern industry.",
+    "strengthBadge": "Our Strengths",
+    "strengthTitle": "A More Precise Approach to Industrial Fabrication",
+    "strengthDesc": "MK Technindo goes beyond execution — we ensure every solution is genuinely aligned with the client's operational context and objectives.",
+    "strengths": [
+      { "title": "Custom to your requirements", "desc": "Every project is executed based on actual on-site requirements, not standardised templates." },
+      { "title": "Focused on function", "desc": "Solutions are designed to support operational efficiency and process continuity." },
+      { "title": "Clear technical communication", "desc": "Project discussions are structured to ensure the final output meets all expectations." },
+      { "title": "Ready for diverse sectors", "desc": "We have experience serving a broad range of industrial and manufacturing clients." }
+    ],
+    "milestones": {
+      "badge": "Our Journey",
+      "title": "Dedication and Innovation Since 2015",
+      "items": [
+        { "year": "2015", "title": "Foundation", "desc": "Established as CV. Maju Kawan Technindo with 3 employees, focusing on initial projects like trolley manufacturing.", "image": "/images/milestones/2015.png" },
+        { "year": "2016", "title": "Administrative Development", "desc": "Refined administrative and financial systems and expanded the team to 17 personnel.", "image": "/images/milestones/2016.png" },
+        { "year": "2018", "title": "PKP Certification", "desc": "Officially became a Taxable Person (PKP) and added professional drafters for fabrication design.", "image": "/images/milestones/2018.png" },
+        { "year": "2019", "title": "Major Industry Trust", "desc": "Began serving major corporations such as PT INKA Madiun and the Autocomp Indonesia network.", "image": "/images/milestones/2019.png" },
+        { "year": "2020", "title": "CNC Technology Investment", "desc": "Upgraded production capabilities with CNC Bending and CNC Shearing machines.", "image": "/images/milestones/2020.png" },
+        { "year": "2021", "title": "Workshop Expansion", "desc": "Operating with two large-scale workshop areas to accelerate production capacity.", "image": "/images/milestones/2021.png" },
+        { "year": "2023", "title": "Digital Transformation", "desc": "Established a digital marketing team to expand service outreach across Indonesia.", "image": "/images/milestones/2023.png" },
+        { "year": "2025", "title": "Modern Laser Technology", "desc": "Added Pipe Laser and Laser Welding technology for higher precision manufacturing.", "image": "/images/milestones/2025.png" },
+        { "year": "2026", "title": "ODOO System Efficiency", "desc": "Implemented ODOO ERP system for more efficient and integrated operational management.", "image": "/images/milestones/2026.png" }
+      ]
+    },
+    "visionTitle": "Our Vision",
+    "visionDesc": "To become a leading industrial equipment fabrication partner that prioritises innovation, precision, and efficient solutions to support the advancement of the manufacturing industry in Indonesia.",
+    "missionTitle": "Our Mission",
+    "missionItems": [
+      "To produce high-quality fabrication products that meet industrial technical and functionality standards.",
+      "To develop innovative conveyor system solutions to enhance client operational efficiency.",
+      "To build long-term partnerships based on trust, professionalism, and reliable after-sales service.",
+      "To continuously invest in the latest manufacturing technology to ensure production precision and speed."
+    ]
+  },
+
+  "servicesPage": {
+    "badge": "Services",
+    "heroTitle": "Conveyor & Industrial Equipment Fabrication Services for Manufacturing",
+    "heroDesc": "MK Technindo delivers services engineered to support industrial operational needs more efficiently, systematically, and in accordance with on-site requirements.",
+    "approachBadge": "Our Approach",
+    "approachTitle": "Solutions Aligned with Real-World Operational Requirements",
+    "ap1": "Every industrial requirement has its own character. MK Technindo therefore does not apply a one-size-fits-all approach across projects.",
+    "ap2": "We begin by thoroughly understanding operational needs, site conditions, technical requirements, and intended use — ensuring every solution is truly relevant to the client's work.",
+    "ap3": "This focused approach enables our fabrication process to deliver systems that are more precise, more functional, and deployment-ready.",
+    "ctaBadge": "Service Consultation",
+    "ctaTitle": "Discuss the Right Service Solution for Your Industrial Operations",
+    "ctaDesc": "The MK Technindo team is ready to help you identify project requirements and determine the most appropriate fabrication or conveyor system solution."
+  },
+
+  "proPage": {
+    "badge": "Professional Excellence",
+    "heroTitle": "Professional Standards in Every Project",
+    "heroDesc": "MK Technindo demonstrates unwavering commitment to professional excellence through precision engineering, systematic project management, and delivery of solutions that exceed industrial expectations.",
+    "standards": {
+      "badge": "Our Professional Standards",
+      "desc": "Every project reflects our dedication to professional excellence and technical precision.",
+      "items": [
+        {
+          "title": "Precision Engineering",
+          "desc": "Every design and fabrication detail is engineered with meticulous attention to technical specifications and operational requirements."
+        },
+        {
+          "title": "Systematic Project Management",
+          "desc": "Structured project execution from consultation through installation ensures predictable timelines and consistent quality."
+        },
+        {
+          "title": "Quality Assurance",
+          "desc": "Rigorous quality checks at every stage guarantee solutions meet both industry standards and client expectations."
+        },
+        {
+          "title": "Technical Documentation",
+          "desc": "Comprehensive documentation and clear communication ensure transparency and traceability throughout the project lifecycle."
+        },
+        {
+          "title": "Safety Compliance",
+          "desc": "All solutions adhere to relevant safety standards and regulations, prioritizing workplace safety and operational reliability."
+        },
+        {
+          "title": "Continuous Improvement",
+          "desc": "Lessons learned from each project drive ongoing refinement of processes, techniques, and service delivery."
+        }
+      ]
+    },
+    "whyChoose": {
+      "badge": "Why Choose Professional",
+      "title": "The Value of Professional Expertise",
+      "desc": "Partnering with a professional team means investing in reliability, efficiency, and long-term operational success.",
+      "items": [
+        {
+          "title": "Proven Track Record",
+          "desc": "Years of experience across diverse industries provide deep insights into varied operational challenges and solutions."
+        },
+        {
+          "title": "Technical Competence",
+          "desc": "Skilled engineers and fabricators bring specialized knowledge to every custom solution."
+        },
+        {
+          "title": "Risk Mitigation",
+          "desc": "Professional approach minimizes project risks through careful planning, validation, and quality control."
+        },
+        {
+          "title": "Cost Efficiency",
+          "desc": "Right-first-time execution reduces rework, downtime, and total cost of ownership."
+        },
+        {
+          "title": "Long-term Partnership",
+          "desc": "Commitment extends beyond delivery with ongoing support and continuous improvement recommendations."
+        },
+        {
+          "title": "Accountability",
+          "desc": "Clear responsibility and transparent communication ensure issues are resolved promptly and professionally."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Experience the Professional Difference",
+      "desc": "Discover how MK Technindo's professional approach can transform your industrial equipment and conveyor system projects.",
+      "email": "Send Professional Enquiry"
+    }
+  }
+}

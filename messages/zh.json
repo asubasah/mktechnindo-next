@@ -1,0 +1,279 @@
+{
+  "locale": "zh",
+  "lang": "中文",
+  "flag": "🇨🇳",
+
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "industries": "行业领域",
+    "projects": "项目案例",
+    "contact": "联系我们"
+  },
+
+  "header": {
+    "cta": "立即咨询"
+  },
+
+  "footer": {
+    "description": "MK Technindo 是一家专业的工业设备制造公司，专注于输送机系统的设计与制造，以及面向制造业运营需求的定制化解决方案。",
+    "contact": "联系方式",
+    "navigation": "导航",
+    "hours": "周一至周五，08:00 – 17:00（西印度尼西亚时间）",
+    "copyright": "© 2026 MK Technindo. 保留所有权利。",
+    "address": "Pergudangan Grand Tambak Sawah No. B7, Waru, Sidoarjo, 东爪哇, 印度尼西亚"
+  },
+
+  "greetings": {
+    "id": { "text": "Selamat Datang", "sub": "Solusi Fabrikasi Industri Terpercaya" },
+    "en": { "text": "Welcome", "sub": "Your Trusted Industrial Fabrication Partner" },
+    "ja": { "text": "ようこそ", "sub": "信頼できる産業用製造ソリューション" },
+    "ko": { "text": "환영합니다", "sub": "신뢰할 수 있는 산업 제조 솔루션" },
+    "zh": { "text": "欢迎光临", "sub": "值得信赖的工业制造解决方案" },
+    "jv": { "text": "Sugeng Rawuh", "sub": "Solusi Fabrikasi Industri sing Dipercaya" }
+  },
+
+  "hero": {
+    "badge": "工业制造解决方案",
+    "title": "输送机系统与工业设备制造专家",
+    "subtitle": "MK Technindo 与制造企业携手合作，设计并制造符合实际运营需求的功能性、高精度输送机系统及工业设备。",
+    "ctaPrimary": "项目咨询",
+    "ctaSecondary": "查看服务",
+    "tag1": "根据行业规格定制制造",
+    "tag2": "多个制造领域丰富经验",
+    "tag3": "总部位于泗水附近，服务覆盖全印度尼西亚"
+  },
+
+  "clients": {
+    "title": "深受领先工业伙伴和制造企业的信赖",
+    "description": "MK Technindo 为 PT INKA Madiun、PT Surabaya Autocomp Indonesia、PT Jatim Autocomp Indonesia、PT Jasuindo Tiga Perkasa 以及食品加工、物流和汽车领域的各类企业提供制造需求支持。"
+  },
+
+  "about": {
+    "badge": "关于 MK Technindo",
+    "title": "深刻理解工业需求的制造合作伙伴",
+    "description": "MK Technindo 专注于工业设备制造，以输送机系统设计制造及工厂运营支持解决方案为核心业务。我们为需要更高效、更有序、更贴合生产需求系统的企业提供专业支持。",
+    "card1Title": "植根于实际现场运营需求",
+    "card1Desc": "所有解决方案均依据现场运营要求、工作流程及实际挑战进行设计。",
+    "card2Title": "按规格定制制造",
+    "card2Desc": "每个项目均以灵活的方式推进，确保最终成果与客户的运营目标真正契合。",
+    "card3Title": "支持多样化工业领域",
+    "card3Desc": "具备为各类制造运营提供输送机系统及工业设备的丰富经验。"
+  },
+
+  "services": {
+    "badge": "核心服务",
+    "title": "面向工业运营的输送机系统与制造解决方案",
+    "description": "MK Technindo 提供的服务旨在更高效、更系统地支持工业工作流程，并符合运营要求。",
+    "items": [
+      {
+        "title": "定制输送机系统",
+        "desc": "根据工作流程、处理能力及运营要求，量身设计制造输送机系统。"
+      },
+      {
+        "title": "工业设备制造",
+        "desc": "制造各类工业设备，以支持生产、物料搬运及其他技术需求。"
+      },
+      {
+        "title": "改造与重建",
+        "desc": "对现有系统和设备进行调整、修复或再开发，以更好地满足当前运营需求。"
+      },
+      {
+        "title": "安装支持",
+        "desc": "提供现场安装及调试支持，确保系统按设计要求正常运行。"
+      },
+      {
+        "title": "技术咨询",
+        "desc": "项目启动前进行充分的前期沟通，明确需求并确定最优方案。"
+      },
+      {
+        "title": "定制项目请求",
+        "desc": "有特殊需求？MK Technindo 团队随时准备为您开发满足精确要求的制造解决方案。"
+      }
+    ]
+  },
+
+  "industries": {
+    "badge": "服务行业",
+    "title": "支持多样化行业与制造运营",
+    "description": "MK Technindo 承接各类制造业、流通业及物料搬运运营的输送机系统与工业设备制造需求。",
+    "items": [
+      "食品加工",
+      "冷冻食品",
+      "宠物食品",
+      "物流与仓储",
+      "鞋类制造",
+      "汽车零部件",
+      "消费品",
+      "特种工业运营"
+    ]
+  },
+
+  "whyUs": {
+    "badge": "选择 MK Technindo 的理由",
+    "title": "应对工业运营需求的精准方法",
+    "description": "我们深知工业挑战无法通过通用解决方案来解决。每个项目均以功能性、效率性及实际现场运营需求为核心来执行。",
+    "items": [
+      {
+        "title": "针对运营的定制设计",
+        "desc": "每个项目均基于实际现场需求设计，而非套用通用模板。"
+      },
+      {
+        "title": "功能性与效率优先",
+        "desc": "工业设备必须稳定运行，并切实支持生产流程。"
+      },
+      {
+        "title": "清晰的技术沟通",
+        "desc": "项目讨论有序推进，确保交付成果符合各方预期。"
+      },
+      {
+        "title": "跨行业丰富经验",
+        "desc": "我们曾服务于具有独特运营特点的多个领域制造商。"
+      },
+      {
+        "title": "全程项目支持",
+        "desc": "从初步咨询、制造，到现场安装及调试，提供全链条服务。"
+      },
+      {
+        "title": "应对复杂需求的能力",
+        "desc": "我们具备处理高度专业化需求的丰富经验，能够适配特殊工作空间与生产目标。"
+      }
+    ]
+  },
+
+  "projects": {
+    "badge": "代表性项目",
+    "title": "针对每位客户运营挑战的定制解决方案",
+    "items": [
+      {
+        "title": "机器人手臂与自动打包机",
+        "desc": "实施机器人自动化和自动打包机方案，提升装配线效率。"
+      },
+      {
+        "title": "货运电梯与物料搬运",
+        "desc": "货运升降机和输送机解决方案，优化工业流程中的物料流动。"
+      },
+      {
+        "title": "定制制造与 CNC 剪切",
+        "desc": "采用 CNC 和激光技术，根据客户规范进行高精度工业设备制造。"
+      }
+    ]
+  },
+
+  "process": {
+    "badge": "工作流程",
+    "title": "确保一致可靠成果的系统化方法",
+    "description": "MK Technindo 遵循严谨的工作流程，将客户需求转化为精准、功能完善、即可投用的制造解决方案。",
+    "steps": [
+      { "step": "01", "title": "需求咨询", "desc": "初步沟通，充分了解运营需求、挑战及项目目标。" },
+      { "step": "02", "title": "现场调查与技术评审", "desc": "现场分析及技术评估，确定最优实施方案。" },
+      { "step": "03", "title": "设计与制造", "desc": "依据商定的项目规格开展方案开发及制造工作。" },
+      { "step": "04", "title": "安装与调试", "desc": "现场安装及系统优化调整，确保运营就绪。" },
+      { "step": "05", "title": "评估与持续支持", "desc": "安装后持续跟进，确认系统按需求正常运行。" }
+    ]
+  },
+
+  "faq": {
+    "badge": "常见问题",
+    "title": "常见问题解答",
+    "description": "关于 MK Technindo 制造服务与输送机系统的常见问题。",
+    "items": [
+      {
+        "q": "MK Technindo 能按定制规格制造输送机系统吗？",
+        "a": "是的，我们可以根据每位客户的规格、工作空间条件及运营目标进行定制化处理。"
+      },
+      {
+        "q": "主要服务哪些行业？",
+        "a": "我们服务范围涵盖食品加工、宠物食品、物流、鞋类制造、汽车零部件及其他工业运营等多个领域。"
+      },
+      {
+        "q": "项目启动前可以进行咨询吗？",
+        "a": "当然可以。我们欢迎前期沟通，以充分了解您的需求并推荐最合适的解决方案。"
+      },
+      {
+        "q": "是否提供安装服务？",
+        "a": "视项目范围而定。MK Technindo 可在必要时提供安装实施及现场调试支持。"
+      },
+      {
+        "q": "能否承接东爪哇以外地区的项目？",
+        "a": "可根据项目范围及所需工作的性质进行协商。"
+      }
+    ]
+  },
+
+  "cta": {
+    "badge": "项目咨询",
+    "title": "欢迎就输送机及工业设备需求与 MK Technindo 洽谈",
+    "description": "正在寻找真正适合您运营流程的制造解决方案？MK Technindo 团队随时准备从咨询到全面实施为您提供支持。",
+    "whatsapp": "通过 WhatsApp 联系",
+    "email": "project@mktechnindo.co.id"
+  },
+
+  "chat": {
+    "title": "MK Technindo AI",
+    "subtitle": "工业智能助手",
+    "placeholder": "请输入您的消息...",
+    "send": "发送",
+    "welcome": "您好！我是 MK Technindo 的 AI 智能助手。欢迎随时咨询输送机系统、工业设备制造服务或其他相关问题。",
+    "thinking": "正在回复中..."
+  },
+
+  "aboutPage": {
+    "badge": "关于我们",
+    "heroTitle": "MK Technindo — 输送机与工业设备制造合作伙伴",
+    "heroDesc": "MK Technindo 专注于工业设备制造，为制造业运营提供输送机系统及定制化解决方案。",
+    "profileBadge": "公司简介",
+    "profileTitle": "植根于实际工业需求的解决方案",
+    "p1": "MK Technindo 的成立旨在为需要按实际现场规格设计的输送机系统和工业设备的制造企业及工业领域提供支持。",
+    "p2": "我们深知每个生产流程都有其独特的特性、产能及挑战。因此，我们的方法专注于功能性、效率性以及与实际运营的真正契合。",
+    "p3": "凭借在制造和输送机系统交付方面积累的丰富经验，MK Technindo 致力于为现代工业需求提供有针对性、高度相关的解决方案。",
+    "strengthBadge": "我们的优势",
+    "strengthTitle": "更精准的工业制造方法",
+    "strengthDesc": "MK Technindo 不止于执行，更致力于确保每个解决方案都与客户的运营背景和目标真正契合。",
+    "strengths": [
+      { "title": "按需定制", "desc": "每一个项目都根据实际的现场要求执行，而不是采用标准模板。" },
+      { "title": "注重功能性", "desc": "解决方案旨在支持运营效率和生产流程的连续性。" },
+      { "title": "清晰的技术沟通", "desc": "项目讨论结构化，以确保最终输出满足所有期望。" },
+      { "title": "服务于多元化领域", "desc": "我们拥有服务于广泛工业和制造业客户的丰富经验。" }
+    ],
+    "milestones": {
+      "badge": "我们的历程",
+      "title": "自 2015 年以来的奉献与创新",
+      "items": [
+        { "year": "2015", "title": "公司成立", "desc": "以 CV. Maju Kawan Technindo 名义成立，拥有 3 名员工，专注于推车制造等初期项目。", "image": "/images/milestones/2015.png" },
+        { "year": "2016", "title": "行政发展", "desc": "完善了行政和财务系统，团队扩大至 17 人。", "image": "/images/milestones/2016.png" },
+        { "year": "2018", "title": "PKP 认证", "desc": "正式成为纳税人 (PKP)，并增加了专业制图人员负责制造设计。", "image": "/images/milestones/2018.png" },
+        { "year": "2019", "title": "大型工业信任", "desc": "开始为 PT INKA Madiun 和 Autocomp Indonesia 网络等大型企业提供服务。", "image": "/images/milestones/2019.png" },
+        { "year": "2020", "title": "CNC 技术投资", "desc": "通过 CNC 折弯机和 CNC 剪板机升级了生产能力。", "image": "/images/milestones/2020.png" },
+        { "year": "2021", "title": "车间扩建", "desc": "拥有两个大型车间区域，加速了生产能力。", "image": "/images/milestones/2021.png" },
+        { "year": "2023", "title": "数字化转型", "desc": "成立了数字化营销团队，将服务范围扩大到全印度尼西亚。", "image": "/images/milestones/2023.png" },
+        { "year": "2025", "title": "现代化激光技术", "desc": "引进了管材激光切割和激光焊接技术，实现更高产精度。", "image": "/images/milestones/2025.png" },
+        { "year": "2026", "title": "ODOO 系统提效", "desc": "实施 ODOO ERP 系统，实现更高效、集成化的运营管理。", "image": "/images/milestones/2026.png" }
+      ]
+    },
+    "visionTitle": "我们的愿景",
+    "visionDesc": "成为领先的工业设备制造合作伙伴，优先考虑创新、精确和高效的解决方案，支持印度尼西亚制造业的发展。",
+    "missionTitle": "我们的使命",
+    "missionItems": [
+      "生产符合工业技术和功能标准的高质量制造产品。",
+      "开发创新的输送系统解决方案，以提高客户的运营效率。",
+      "建立基于信任、专业精神和可靠售后服务的长期合作伙伴关系。",
+      "持续投资最新的制造技术，确保生产的精确性和速度。"
+    ]
+  },
+
+  "servicesPage": {
+    "badge": "服务",
+    "heroTitle": "面向制造业的输送机与工业设备制造服务",
+    "heroDesc": "MK Technindo 提供的服务旨在更高效、更系统地支持工业运营需求，并严格符合现场要求。",
+    "approachBadge": "我们的方法",
+    "approachTitle": "与实际运营需求真正契合的解决方案",
+    "ap1": "每个工业需求都有其独特性。因此，MK Technindo 不采用一刀切的方式来处理不同项目。",
+    "ap2": "我们从深入了解运营需求、现场条件、技术要求及预期用途开始，确保每个解决方案都真正适合客户的实际工作。",
+    "ap3": "这种专注的方法使我们的制造流程能够交付更精准、更具功能性、即可投入使用的系统。",
+    "ctaBadge": "服务咨询",
+    "ctaTitle": "欢迎就贵公司工业运营的最优服务方案进行咨询",
+    "ctaDesc": "MK Technindo 团队随时准备协助您明确项目需求，并确定最合适的制造或输送机系统解决方案。"
+  }
+}
