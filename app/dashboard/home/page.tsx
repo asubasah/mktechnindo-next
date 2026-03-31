@@ -14,7 +14,6 @@ export default function DashboardHomePage() {
 
   const [aiPrompt, setAiPrompt] = useState("");
   const [aiModel, setAiModel] = useState("google/gemini-2.0-flash-001");
-  const [availableModels, setAvailableModels] = useState<{ id: string; name: string; provider: string; tier: string }[]>([]);
   const [aiLoading, setAiLoading] = useState(false);
   const [aiSaving, setAiSaving] = useState(false);
   const [aiMsg, setAiMsg] = useState<{ type: "ok" | "err"; text: string } | null>(null);
@@ -30,7 +29,6 @@ export default function DashboardHomePage() {
       if (res.ok) {
         setAiPrompt(data.systemPrompt);
         setAiModel(data.aiModel || "google/gemini-2.0-flash-001");
-        setAvailableModels(data.availableModels || []);
       }
     } catch (e) {
       console.error(e);
@@ -299,23 +297,19 @@ export default function DashboardHomePage() {
                 <div className="space-y-6">
                   {/* Model Selection */}
                   <div>
-                    <label className="mb-2 block text-xs font-semibold uppercase tracking-widest text-slate-500">Model OpenRouter</label>
+                    <label className="mb-2 block text-xs font-semibold uppercase tracking-widest text-slate-500">ID Model OpenRouter</label>
                     {aiLoading ? (
                       <div className="h-12 w-full animate-pulse rounded-xl bg-white/5" />
                     ) : (
-                      <select
+                      <input
+                        type="text"
                         value={aiModel}
                         onChange={(e) => setAiModel(e.target.value)}
-                        className="w-full rounded-xl border border-white/10 bg-black/30 px-4 py-3 text-sm text-slate-300 outline-none ring-offset-slate-900 transition focus:ring-2 focus:ring-amber-500/50"
-                      >
-                        {availableModels.map((m) => (
-                          <option key={m.id} value={m.id} className="bg-slate-900 text-white">
-                            {m.name} ({m.provider}) - {m.tier === 'fast' ? '⚡ Cepat/Murah' : m.tier === 'economy' ? '💰 Ekonomis' : '🧠 Premium/Pintar'}
-                          </option>
-                        ))}
-                      </select>
+                        placeholder="Contoh: google/gemini-2.0-flash-001"
+                        className="w-full rounded-xl border border-white/10 bg-black/30 px-4 py-3 text-sm font-mono text-amber-400 outline-none ring-offset-slate-900 transition focus:ring-2 focus:ring-amber-500/50"
+                      />
                     )}
-                    <p className="mt-2 text-[11px] text-slate-500">Model dengan label premium lebih cerdas tapi memakan credit lebih banyak.</p>
+                    <p className="mt-2 text-[11px] text-slate-500">Ketik ID model dari OpenRouter secara manual (contoh: <code>anthropic/claude-3.5-sonnet:beta</code> atau <code>xiaomi/mimo-v2-pro</code>). Pastikan ketikannya persis agar tidak error.</p>
                   </div>
 
                   {/* System Prompt */}

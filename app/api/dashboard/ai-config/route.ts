@@ -26,11 +26,7 @@ export async function POST(req: Request) {
     const updates: Record<string, string> = {};
     if (systemPrompt) updates.SYSTEM_PROMPT = systemPrompt;
     if (aiModel) {
-      // Validate model is in available list
-      const validModel = AVAILABLE_MODELS.find(m => m.id === aiModel);
-      if (!validModel) {
-        return NextResponse.json({ error: 'Invalid model selected' }, { status: 400 });
-      }
+      // Accepting any openrouter model string
       updates.AI_MODEL = aiModel;
     }
 
