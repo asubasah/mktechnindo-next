@@ -4,6 +4,7 @@ import { getSettings } from "@/lib/settings";
 export async function POST(req: Request) {
   const settings = getSettings();
   const SYSTEM_PROMPT = settings.SYSTEM_PROMPT;
+  const AI_MODEL = settings.AI_MODEL || "google/gemini-2.0-flash-001";
   try {
     const { messages, fileUrl } = await req.json();
 
@@ -32,7 +33,7 @@ export async function POST(req: Request) {
         "X-Title": "MK Technindo AI Assistant",
       },
       body: JSON.stringify({
-        model: "google/gemini-2.0-flash-001",
+        model: AI_MODEL,
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
           ...conversation,

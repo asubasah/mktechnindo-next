@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
+import { getSettings } from "@/lib/settings";
 
 // Generate a random strong password using OpenRouter AI
 export async function POST(req: Request) {
@@ -10,6 +11,9 @@ export async function POST(req: Request) {
   }
 
   void req;
+
+  const settings = getSettings();
+  const AI_MODEL = settings.AI_MODEL || "google/gemini-2.0-flash-001";
 
   const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) {
@@ -25,7 +29,7 @@ export async function POST(req: Request) {
       "X-Title": "MK Technindo Dashboard",
     },
     body: JSON.stringify({
-      model: "google/gemini-2.0-flash-001",
+      model: AI_MODEL,
       messages: [
         {
           role: "user",
