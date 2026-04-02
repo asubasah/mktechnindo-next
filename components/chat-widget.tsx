@@ -154,7 +154,7 @@ export default function ChatWidget({ locale }: { locale: string }) {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <div className="max-w-[80%] rounded-2xl rounded-tl-none bg-slate-800/80 px-4 py-3 text-sm leading-relaxed text-slate-200 ring-1 ring-white/5">
+              <div className="max-w-[85%] rounded-2xl rounded-tl-none bg-slate-800/80 px-3.5 py-2.5 text-[13px] leading-relaxed text-slate-200 ring-1 ring-white/5">
                 {t("welcome")}
               </div>
             </div>
@@ -170,7 +170,7 @@ export default function ChatWidget({ locale }: { locale: string }) {
                 </div>
               )}
               <div
-                className={`max-w-[80%] rounded-2xl px-4 py-3 text-sm leading-relaxed ${
+                className={`max-w-[85%] rounded-2xl px-3.5 py-2.5 text-[13px] leading-relaxed ${
                   m.role === "user"
                     ? "rounded-tr-none bg-gradient-to-br from-amber-500 to-amber-600 text-slate-950 font-medium"
                     : "rounded-tl-none bg-slate-800/80 text-slate-200 ring-1 ring-white/5"
@@ -227,7 +227,7 @@ export default function ChatWidget({ locale }: { locale: string }) {
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && send()}
             placeholder={t("placeholder")}
-            className="flex-1 rounded-full bg-slate-800 px-4 py-2.5 text-sm text-white placeholder-slate-500 outline-none ring-1 ring-white/10 transition focus:ring-amber-500/60"
+            className="flex-1 rounded-full bg-slate-800 px-4 py-2.5 text-[13px] text-white placeholder-slate-500 outline-none ring-1 ring-white/10 transition focus:ring-amber-500/60"
           />
           <button
             onClick={send}
