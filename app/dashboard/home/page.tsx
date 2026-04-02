@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-type ViewType = "overview" | "password" | "ai";
+type ViewType = "overview" | "password" | "ai" | "history";
 
 export default function DashboardHomePage() {
   const [view, setView] = useState<ViewType>("overview");
@@ -19,6 +19,9 @@ export default function DashboardHomePage() {
   const [aiMsg, setAiMsg] = useState<{ type: "ok" | "err"; text: string } | null>(null);
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const [history, setHistory] = useState<any[]>([]);
+  const [histLoading, setHistLoading] = useState(false);
 
   // Fetch AI Config
   const fetchAiConfig = async () => {
@@ -98,6 +101,25 @@ export default function DashboardHomePage() {
     window.location.href = "/dashboard";
   };
 
+  const fetchHistory = async () => {
+    setHistLoading(true);
+    try {
+      const res = await fetch("/api/dashboard/chat-history");
+      const data = await res.json();
+      if (res.ok) setHistory(data);
+    } catch (e) {
+      console.error(e);
+    } finally {
+      setHistLoading(false);
+    }
+  };
+
+  const clearHistory = async () => {
+    if (!confirm("Hapus semua history chat?")) return;
+    await fetch("/api/dashboard/chat-history", { method: "DELETE" });
+    setHistory([]);
+  };
+
   const stats = [
     { label: "Halaman Aktif", value: "7", icon: "📄", color: "from-blue-500/20 to-blue-500/5", ring: "ring-blue-500/20" },
     { label: "Bahasa Tersedia", value: "6", icon: "🌐", color: "from-emerald-500/20 to-emerald-500/5", ring: "ring-emerald-500/20" },
@@ -141,6 +163,7 @@ export default function DashboardHomePage() {
           {[
             { id: "overview", label: "Overview", icon: "📊" },
             { id: "ai", label: "Konfigurasi AI Agent", icon: "🤖" },
+            { id: "history", label: "History Web Chat", icon: "📜" },
             { id: "password", label: "Keamanan Password", icon: "🔐" },
           ].map((item) => (
             <button
@@ -149,6 +172,7 @@ export default function DashboardHomePage() {
                 setView(item.id as ViewType); 
                 setMobileMenuOpen(false); 
                 if (item.id === "ai") fetchAiConfig();
+                if (item.id === "history") fetchHistory();
               }}
               className={`mb-1 flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
                 view === item.id
@@ -196,7 +220,7 @@ export default function DashboardHomePage() {
               <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
             </button>
             <h1 className="text-base font-semibold text-white" style={{ fontFamily: "'Outfit', sans-serif" }}>
-              {view === "overview" ? "Dashboard Overview" : view === "ai" ? "Konfigurasi AI Agent" : "Keamanan Password"}
+              {view === "overview" ? "Dashboard Overview" : view === "ai" ? "Konfigurasi AI Agent" : view === "history" ? "History Web Chat" : "Keamanan Password"}
             </h1>
           </div>
           <div className="flex items-center gap-2">
@@ -270,7 +294,7 @@ export default function DashboardHomePage() {
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-amber-500/20 text-xl">🤖</div>
                   <div>
                     <h2 className="text-sm font-semibold text-amber-400" style={{ fontFamily: "'Outfit', sans-serif" }}>AI Webchat</h2>
-                    <p className="mt-1 text-sm text-slate-400">Menggunakan OpenRouter AI (Gemini 2.0 Flash). Chat widget aktif di semua halaman. AI auto-detect bahasa pengguna dan balas dalam bahasa yang sama (ID, EN, JA, KO, ZH, JV).</p>
+                    <p className="mt-1 text-sm text-slate-400">Status Chat widget aktif di semua halaman. AI auto-detect bahasa pengguna dan balas dalam bahasa yang sama (ID, EN, JA, KO, ZH, JV).</p>
                     <div className="mt-3 flex flex-wrap gap-2">
                       <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-xs text-emerald-400 ring-1 ring-emerald-500/20">Provider: OpenRouter</span>
                       <span className="rounded-full bg-blue-500/10 px-3 py-1 text-xs text-blue-400 ring-1 ring-blue-500/20">Model: {aiModel || 'Gemini 2.0 Flash'}</span>
@@ -354,6 +378,71 @@ export default function DashboardHomePage() {
                   <li>Pastikan ada aturan untuk meneruskan pertanyaan harga ke Sales Engineer.</li>
                 </ul>
               </div>
+            </div>
+          )}
+
+          {/* ── HISTORY ─────────────────────────── */}
+          {view === "history" && (
+            <div className="space-y-6">
+              <div className="flex items-center justify-between">
+                <div>
+                  <h2 className="text-xl font-bold text-white" style={{ fontFamily: "'Outfit', sans-serif" }}>Monitoring Chat History</h2>
+                  <p className="text-sm text-slate-400">Riwayat percakapan pengunjung dengan AI di website.</p>
+                </div>
+                <button 
+                  onClick={clearHistory}
+                  className="rounded-xl border border-red-500/20 bg-red-500/5 px-4 py-2 text-xs font-medium text-red-400 transition hover:bg-red-500/15"
+                >
+                  Hapus Semua History
+                </button>
+              </div>
+
+              {histLoading ? (
+                <div className="space-y-4">
+                  {[1, 2, 3].map(i => <div key={i} className="h-24 w-full animate-pulse rounded-2xl bg-white/5" />)}
+                </div>
+              ) : history.length === 0 ? (
+                <div className="flex flex-col items-center justify-center rounded-3xl border border-dashed border-white/10 py-20 text-slate-500">
+                  <span className="mb-2 text-4xl">📭</span>
+                  <p>Belum ada history chat.</p>
+                </div>
+              ) : (
+                <div className="space-y-4">
+                  {history.map((chat) => (
+                    <div key={chat.id} className="overflow-hidden rounded-2xl border border-white/8 bg-white/3 transition hover:bg-white/5">
+                      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/5 bg-white/2 px-5 py-3">
+                        <div className="flex items-center gap-3">
+                          <span className="text-xs font-mono text-slate-500">{new Date(chat.timestamp).toLocaleString("id-ID")}</span>
+                          <span className="rounded-full bg-amber-500/10 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-amber-500 ring-1 ring-amber-500/20">
+                            {chat.model.split("/").pop()}
+                          </span>
+                        </div>
+                        {chat.fileUrl && (
+                          <a href={chat.fileUrl} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs text-blue-400 hover:underline">
+                            <span>📎</span> View Attachment
+                          </a>
+                        )}
+                      </div>
+                      <div className="p-5">
+                        <div className="space-y-3">
+                          {chat.messages.slice(-2).map((msg: any, idx: number) => (
+                            <div key={idx} className="flex gap-3">
+                              <span className={`w-12 shrink-0 text-[10px] font-bold uppercase tracking-widest ${msg.role === "user" ? "text-amber-500" : "text-slate-500"}`}>
+                                {msg.role}:
+                              </span>
+                              <p className="text-sm text-slate-300 line-clamp-3">{msg.content}</p>
+                            </div>
+                          ))}
+                          <div className="flex gap-3 pt-1 border-t border-white/5">
+                            <span className="w-12 shrink-0 text-[10px] font-bold uppercase tracking-widest text-emerald-500">AI:</span>
+                            <p className="text-sm text-slate-200">{chat.reply}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           )}
 

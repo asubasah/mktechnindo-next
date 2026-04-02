@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 import { getSettings } from "@/lib/settings";
+import fs from "fs";
+import path from "path";
 
 export async function POST(req: Request) {
   const settings = getSettings();
@@ -54,6 +56,36 @@ export async function POST(req: Request) {
 
     const data = await response.json();
     const reply = data.choices?.[0]?.message?.content ?? "Maaf, terjadi kesalahan. Silakan coba lagi.";
+    
+    // Save to History (WITHOUT database)
+    try {
+      const historyPath = path.join(process.cwd(), "config", "chat_history.json");
+      const historyDir = path.dirname(historyPath);
+      if (!fs.existsSync(historyDir)) fs.mkdirSync(historyDir, { recursive: true });
+
+      let history = [];
+      if (fs.existsSync(historyPath)) {
+        const fileContent = fs.readFileSync(historyPath, "utf8");
+        history = JSON.parse(fileContent);
+      }
+
+      // Add modern entry
+      history.unshift({
+        id: Date.now().toString(),
+        timestamp: new Date().toISOString(),
+        messages: messages,
+        reply: reply,
+        model: AI_MODEL,
+        fileUrl: fileUrl || null
+      });
+
+      // Keep only last 100 chats to prevent huge file
+      if (history.length > 100) history = history.slice(0, 100);
+
+      fs.writeFileSync(historyPath, JSON.stringify(history, null, 2), "utf8");
+    } catch (err) {
+      console.error("Failed to save chat history:", err);
+    }
 
     return NextResponse.json({ reply });
   } catch (e) {
