@@ -26,6 +26,18 @@ export default function ChatWidget({ locale }: { locale: string }) {
     if (open) setTimeout(() => inputRef.current?.focus(), 150);
   }, [open]);
 
+  // Format message: hapus * dan bungkus newline dengan <br />
+  const formatText = (text: string) => {
+    const cleanStr = text.replace(/\*/g, ""); // hilangkan bintang
+    return cleanStr.split("\n").map((line, i) => (
+      <span key={i}>
+        {line}
+        <br />
+      </span>
+    ));
+  };
+
+
   const send = async () => {
     const text = input.trim();
     if (!text || thinking) return;
@@ -176,7 +188,7 @@ export default function ChatWidget({ locale }: { locale: string }) {
                     : "rounded-tl-none bg-slate-800/80 text-slate-200 ring-1 ring-white/5"
                 }`}
               >
-                {m.content}
+                {formatText(m.content)}
               </div>
             </div>
           ))}

@@ -74,6 +74,10 @@ export function getSettings(): Settings {
 
 export function saveSettings(newSettings: Partial<Settings>) {
   try {
+    const dir = path.dirname(SETTINGS_PATH);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
     const current = getSettings();
     const updated = { ...current, ...newSettings };
     fs.writeFileSync(SETTINGS_PATH, JSON.stringify(updated, null, 2), 'utf8');
