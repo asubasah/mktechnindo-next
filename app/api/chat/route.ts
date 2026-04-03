@@ -37,7 +37,10 @@ export async function POST(req: Request) {
       body: JSON.stringify({
         model: AI_MODEL,
         messages: [
-          { role: "system", content: SYSTEM_PROMPT },
+          { 
+            role: "system", 
+            content: `${SYSTEM_PROMPT}\n\n[TIME CONTEXT: Waktu saat ini di Indonesia (WIB) adalah ${new Date().toLocaleString("id-ID", { timeZone: "Asia/Jakarta" })}. Gunakan salam yang sesuai: 00:00-11:00 = Pagi, 11:00-15:00 = Siang, 15:00-18:00 = Sore, 18:00-24:00 = Malam.]` 
+          },
           ...conversation,
         ],
         max_tokens: 800,
