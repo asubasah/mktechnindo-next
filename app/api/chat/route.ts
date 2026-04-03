@@ -26,6 +26,16 @@ export async function POST(req: Request) {
       });
     }
 
+    // Determine greeting based on Jakarta time dynamically
+    const jktHourStr = new Date().toLocaleString("en-US", { timeZone: "Asia/Jakarta", hour: "numeric", hour12: false });
+    const jktHour = parseInt(jktHourStr, 10);
+    let autoGreeting = "Malam";
+    if (jktHour >= 0 && jktHour < 11) autoGreeting = "Pagi";
+    else if (jktHour >= 11 && jktHour < 15) autoGreeting = "Siang";
+    else if (jktHour >= 15 && jktHour < 18) autoGreeting = "Sore";
+
+    const TIME_PROMPT = `[INSTRUKSI KRITIKAL: Waktu lokal nyata saat ini adalah **${autoGreeting}**. Jika Anda memberikan sapaan, ANDA WAJIB mengucapkan "Selamat ${autoGreeting.toLowerCase()}". JANGAN meniru (mirror) sapaan pengguna jika sapaan mereka salah / berbeda dari waktu ini.]`;
+
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
       headers: {
@@ -37,10 +47,7 @@ export async function POST(req: Request) {
       body: JSON.stringify({
         model: AI_MODEL,
         messages: [
-          { 
-            role: "system", 
-            content: `${SYSTEM_PROMPT}\n\n[TIME CONTEXT: Waktu saat ini di Indonesia (WIB) adalah ${new Date().toLocaleString("id-ID", { timeZone: "Asia/Jakarta" })}. Gunakan salam yang sesuai: 00:00-11:00 = Pagi, 11:00-15:00 = Siang, 15:00-18:00 = Sore, 18:00-24:00 = Malam.]` 
-          },
+          { role: "system", content: `${SYSTEM_PROMPT}\n\n${TIME_PROMPT}` },
           ...conversation,
         ],
         max_tokens: 800,
