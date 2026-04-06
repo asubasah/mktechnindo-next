@@ -166,11 +166,12 @@
     "title": "Proses yang Terstruktur untuk Hasil yang Lebih Tepat",
     "description": "MK Technindo menjalankan proses kerja yang terarah agar kebutuhan klien dapat diterjemahkan menjadi solusi fabrikasi yang tepat, fungsional, dan siap digunakan.",
     "steps": [
-      { "step": "01", "title": "Konsultasi Kebutuhan", "desc": "Diskusi awal mengenai kebutuhan operasional, tantangan, dan target proyek." },
-      { "step": "02", "title": "Survey & Technical Review", "desc": "Analisis kondisi lapangan dan requirement teknis untuk menentukan pendekatan yang tepat." },
-      { "step": "03", "title": "Desain & Fabrikasi", "desc": "Pengembangan solusi dan proses pengerjaan sesuai spesifikasi proyek yang telah disepakati." },
-      { "step": "04", "title": "Instalasi & Implementasi", "desc": "Dukungan pemasangan dan penyesuaian agar sistem siap dioperasikan." },
-      { "step": "05", "title": "Evaluasi & Dukungan Lanjutan", "desc": "Pendampingan lanjutan untuk memastikan fungsi berjalan sesuai kebutuhan." }
+      { "step": "1", "title": "Perencanaan", "desc": "Diskusi, pengumpulan kebutuhan, dan perencanaan proyek awal." },
+      { "step": "2", "title": "Desain & Program", "desc": "Perancangan teknis dan sistem sesuai spesifikasi proyek yang disepakati." },
+      { "step": "3", "title": "Approval", "desc": "Persetujuan desain dan rencana teknis dari klien sebelum tahap produksi." },
+      { "step": "4", "title": "Production", "desc": "Proses fabrikasi dan manufaktur peralatan secara presisi di workshop kami." },
+      { "step": "5", "title": "Pengiriman", "desc": "Pengiriman barang yang aman dan tepat waktu ke lokasi proyek Anda." },
+      { "step": "6", "title": "Pemasangan & Installasi", "desc": "Pemasangan sistem di lapangan, pengujian operasional, dan serah terima." }
     ]
   },
 

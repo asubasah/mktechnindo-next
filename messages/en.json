@@ -166,11 +166,12 @@
     "title": "A Structured Approach for Consistent, Reliable Results",
     "description": "MK Technindo follows a disciplined process to translate client requirements into fabrication solutions that are accurate, functional, and ready to deploy.",
     "steps": [
-      { "step": "01", "title": "Requirements Consultation", "desc": "An initial discussion to understand operational needs, challenges, and project objectives." },
-      { "step": "02", "title": "Site Survey & Technical Review", "desc": "On-site analysis and technical assessment to define the most appropriate approach." },
-      { "step": "03", "title": "Design & Fabrication", "desc": "Solution development and fabrication carried out to agreed project specifications." },
-      { "step": "04", "title": "Installation & Commissioning", "desc": "On-site installation and system fine-tuning to ensure operational readiness." },
-      { "step": "05", "title": "Evaluation & Ongoing Support", "desc": "Post-installation follow-up to verify the system is performing as required." }
+      { "step": "1", "title": "Planning", "desc": "Initial discussion, requirements gathering, and project planning." },
+      { "step": "2", "title": "Design & Program", "desc": "Technical design and system programming according to agreed specifications." },
+      { "step": "3", "title": "Approval", "desc": "Client approval of the design and technical plan before production." },
+      { "step": "4", "title": "Production", "desc": "Precision fabrication and manufacturing process in our workshop." },
+      { "step": "5", "title": "Delivery", "desc": "Safe and timely delivery of equipment to your project site." },
+      { "step": "6", "title": "Installation", "desc": "On-site system installation, operational testing, and handover." }
     ]
   },
 

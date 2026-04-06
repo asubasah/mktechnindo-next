@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import GreetingBanner from "../../components/greeting-banner";
 import GreenOverlay from "../../components/green-overlay";
 import GreenBg from "../../components/green-bg";
+import ProcessTimeline from "../../components/process-timeline";
 
 export default function HomePage() {
   const t = useTranslations();
@@ -270,22 +271,16 @@ export default function HomePage() {
       <section className="relative overflow-hidden border-b border-slate-200 bg-white">
         <GreenBg index={1} />
         <div className="relative mx-auto max-w-7xl px-6 py-20">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-amber-600">{t("process.badge")}</p>
-            <h2 className="mt-4 text-3xl font-bold leading-tight text-slate-900 md:text-4xl" style={{ fontFamily: "'Outfit', sans-serif" }}>
+            <h2 className="mt-4 text-3xl font-bold leading-tight text-slate-900 md:text-5xl" style={{ fontFamily: "'Outfit', sans-serif" }}>
               {t("process.title")}
             </h2>
-            <p className="mt-6 text-lg leading-8 text-slate-600">{t("process.description")}</p>
+            <p className="mt-4 text-lg leading-8 text-slate-600 uppercase tracking-widest text-xs">{t("process.description")}</p>
           </div>
-          <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
-            {process.map((item) => (
-              <div key={item.step} className="card-lift relative rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-6 shadow-sm">
-                <p className="text-3xl font-black tracking-tight text-slate-100" style={{ fontFamily: "'Outfit', sans-serif" }}>{item.step}</p>
-                <h3 className="mt-2 text-base font-semibold text-slate-900" style={{ fontFamily: "'Outfit', sans-serif" }}>{item.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-slate-600">{item.desc}</p>
-              </div>
-            ))}
-          </div>
+          
+          <ProcessTimeline steps={process} />
+
         </div>
       </section>
 
